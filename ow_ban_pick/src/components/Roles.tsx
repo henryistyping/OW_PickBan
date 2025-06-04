@@ -5,7 +5,7 @@ import { HeroCard } from "./HeroCard";
 interface RolesProps {
     roles: Roles
     heroes: Hero[]
-    bannedIds: stirng[]
+    bannedIds: string[]
     selectedHeroId?: string
     onSelect: (hero: Hero) => void
 }
